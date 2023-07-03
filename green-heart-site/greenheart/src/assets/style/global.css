@@ -1,0 +1,199 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0px;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Oxygen', sans-serif;
+}
+
+/* -------------------------------- */
+/*            BOTÃO CSS             */
+
+.btn_header{
+    margin-top: 5vh;
+    width: 20vw;
+    height: 8vh;
+    font-weight: 600;
+    font-size: 1.2em;
+    border-radius: 100px;
+    border: none;
+    color: #ffffff;
+    background-color: #04402F;
+    cursor: pointer;
+    transition-duration: 0.7s;
+}
+
+.btn_header:hover{
+    transition-duration: 0.7s;
+    background-color: #5F806D;
+    border: 1px solid #5F806D ;
+    color: #ffffff;
+    text-shadow: 10px 3px 10px #0000002f;
+}
+
+.btn_header:active{
+    transition-duration: 0.5ms;
+    background-color: #577564 ;
+    border: 1px solid #577564 ;
+    color: #ffffff;
+    text-shadow: 10px 3px 10px #0000002f;
+}
+
+/* -------------------------------- */
+/*           Fomularios             */
+
+.InputForm{
+    width: 20vw;
+    height: 5vh;
+    border: 0.6px solid #7CA68E;
+    border-radius: 8px;
+    background-color: #ffffff;
+    text-indent: 5%;
+}
+
+input:disabled{
+    width: 20vw !important;
+    height: 5vh !important;
+    border:none !important;
+    border: solid #CFCFCF 1px !important;
+    border-radius: 8px !important;
+    background-color: #d7d7d7 !important;
+    text-indent: 5% !important;
+}
+
+.InputForm:focus {
+    outline: 0;
+}
+
+/* -------------------------------- */
+/*           navFomularios          */
+.nav{
+    width: 60%;
+    height: 16vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.navForm{
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.image{
+    display: flex;
+    justify-content: flex-start;
+    width: 30%;
+}
+
+.image img {
+    align-items: center;
+}
+
+/* -------------------------------- */
+/*           FOMULARIO              */
+
+.divInputForm{
+    display: flex;
+    flex-direction: column;
+    font-size: 1.1em;
+    margin-top: 2vh;
+    font-weight: bold;
+    margin-bottom: 1vh;
+}
+
+.divInputForm span{
+    font-size: 0.8em;
+    margin: 0.5vh;
+}
+
+/* -------------------------------- */
+/*           INPUT PASSWORD         */
+
+.InputFormPass{
+    width: 20vw;
+    height: 5vh;
+    border: 0.6px solid #7CA68E;
+    border-radius: 8px;
+    padding-left: 2%;
+    background-color: #ffffff;
+    text-indent: 5%;
+}
+
+.InputFormPass:focus {
+    outline: 0;
+}
+
+.inputContainer {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.uil-eye,
+.uil-eye-slash {
+  position: absolute;
+  right: 1px;
+  cursor: pointer;
+}
+
+.spanErro {
+    display: none;
+    color: red;
+    font-size: 0.5em;
+}
+
+.divContArq{
+    position: fixed;
+    right: 0;
+    bottom: 20px;
+    width: 10vw;
+    height: 16vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.intoDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2vh;
+}
+
+.btnArq{
+    width: 6w;
+    height: 4vh;
+    border: none;
+    background-color: #04402F;
+    color: #ffffff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btnArq:hover{
+    transition: 0.6s;
+    width: 6w;
+    height: 4vh;
+    border: none;
+    background-color: #577564;
+    color: #d7d7d7;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btnArq:active{
+    background-color: #CFCFCF;
+    color: #000000;
+}
+
+.imagArq{
+    width: 2vw;
+    margin-right: 1vw;
+}

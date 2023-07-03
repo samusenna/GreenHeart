@@ -1,0 +1,262 @@
+.NavPosLogin {
+    width: 100%;
+    height: 14vh;
+    position: fixed;
+    z-index: 8888;
+    box-shadow: 0 1px 20px #00000033;
+    top: 0;
+    display: flex;
+    flex-direction: row;
+    background-color: #ffffff;
+    justify-content: space-between;
+}
+
+.image {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    height: 100%;
+}
+
+.txtNav {
+    width: 20vw;
+    display: flex;
+    flex-direction: row;
+}
+
+.divOpcBtn {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.btnNavPosLogin {
+    background-color: #ffffff;
+    border: none;
+    font-size: 1.1em;
+    cursor: pointer;
+    margin-left: 2vw;
+}
+
+.btnNavPosLogin:hover {
+    color: #1F7343;
+    transition-duration: 0.7s;
+}
+
+.LoginPubBtn {
+    display: none;
+}
+
+.divBtnSair {
+    display: flex;
+    align-items: center;
+}
+
+.divNull {
+    width: 4vw;
+}
+
+/* -------------------------------- */
+/*            MODAL PERFIL          */
+
+.ModalPerfilUser {
+    margin-top: 16vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 80vh;
+}
+
+.optionsDiv {
+    width: 16vw;
+    height: 78vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background: #04402F;
+    color: #ffffff;
+    border-radius: 16px 0px 0px 16px;
+}
+
+.contBtn {
+    height: 18vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 16vh;
+}
+
+.btnOptModal {
+    outline: none;
+    background-color: #04402F;
+    border: none;
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 1.4em;
+    margin-bottom: 4vh;
+}
+
+.btnOptModal:hover {
+    transition-duration: 0.7s;
+}
+
+.nameUser {
+    margin-top: 14vh;
+    margin-bottom: 8vh;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.formDiv {
+    width: 60vw;
+    height: 78vh;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    background: #F2F2F2;
+    border-radius: 0px 16px 16px 0px;
+}
+
+.titleForm {
+    font-weight: bold;
+    font-size: 1.6em;
+    margin-top: 6vh;
+    margin-bottom: 2vh;
+}
+
+.contFormEmp {
+    width: 48vw;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.contInpForm{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.contBtnSubForm{
+    margin-top: 5vh;
+    width: 100%;
+    height: 6vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contBtnSubForm2{
+    margin-top: 2vh;
+    width: 100%;
+    height: 6vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.divInputFormPerfil {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.btnPerfilEdit {
+
+    border: none;
+    width: 2vw;
+    height: 3vh;
+    margin-top: 2vh;
+    margin-left: 1vw;
+
+}
+
+.uil {
+    cursor: pointer;
+}
+
+.btnForm {
+    width: 20.5vw;
+    height: 6vh;
+    font-weight: 600;
+    font-size: 1em;
+    border-radius: 12px;
+    border: none;
+    color: #ffffff;
+    background-color: #04402F;
+    cursor: pointer;
+    transition-duration: 0.7s;
+    outline: none;
+}
+.btnFormEdit {
+    width: 20.5vw;
+    height: 6vh;
+    font-weight: 600;
+    font-size: 1em;
+    border-radius: 12px;
+    border: none;
+    color: #ffffff;
+    background-color: #04402F;
+    cursor: pointer;
+    transition-duration: 0.7s;
+    outline: none;
+}
+
+.divContBtn{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.btnForm:hover {
+    transition-duration: 0.7s;
+    background-color: #5F806D;
+    border: 1px solid #5F806D;
+    color: #ffffff;
+    text-shadow: 10px 3px 10px #0000002f;
+}
+
+.btnForm:active {
+    transition-duration: 0.5ms;
+    background-color: #577564;
+    border: 1px solid #577564;
+    color: #ffffff;
+    text-shadow: 10px 3px 10px #0000002f;
+}
+
+.btnFormEdit:hover {
+    transition-duration: 0.7s;
+    background-color: #5F806D;
+    border: 1px solid #5F806D;
+    color: #ffffff;
+    text-shadow: 10px 3px 10px #0000002f;
+}
+
+.btnFormEdit:active {
+    transition-duration: 0.5ms;
+    background-color: #577564;
+    border: 1px solid #577564;
+    color: #ffffff;
+    text-shadow: 10px 3px 10px #0000002f;
+}
+
+.passwordContForm {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.optBold {
+    font-weight: bold;
+}
+
+#contFormName {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

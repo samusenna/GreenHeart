@@ -1,0 +1,432 @@
+.FiltroFeedVol {
+    position: fixed;
+    width: 32%;
+    height: 85vh;
+    margin-top: 16vh;
+    align-items: center;
+    border: none;
+    flex-direction: column;
+    background-color: #F2F2F2;
+}
+
+.titleFilterFeed {
+    text-align: center;
+    font-size: 1em;
+    font-weight: 600;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    color: #000000;
+}
+
+.filterOptionsVolFeed {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    flex-direction: column;
+    height: 100vh;
+    background-color: #F2F2F2;
+}
+
+.imgFilter1Feed {
+    margin-bottom: 1vh;
+}
+
+.imgFilter1Feed img {
+
+    width: 7vw;
+
+    border-radius: 100px;
+}
+
+.imgFilterFeed {
+    margin-bottom: 1vh;
+}
+
+.imgFilterFeed img {
+
+    width: 7vw;
+
+    border-radius: 100px;
+}
+
+.contFeedVol {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 22vh;
+    color: #000000;
+}
+
+.line1Vol {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    height: 24vh;
+    width: 100%;
+}
+
+.line2Vol {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    height: 24vh;
+    width: 100%;
+}
+
+.textPub {
+    width: 100%;
+    height: 16vh;
+    text-align: center;
+    font-size: 1.5em;
+    color: #04402F;
+    margin-top: 3vh;
+    background-color: #F2F2F2;
+    padding-top: 4vh;
+}
+
+/* -------------------------------- */
+/*           CARD NEW PUB           */
+
+.NovaPub {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 60vh;
+    background-color: #F2F2F2;
+}
+
+.containerVolFeed {
+    background-color: #FFFFFF;
+    padding: 3%;
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+    height: 44vh;
+    margin-left: 34vw;
+    box-shadow: 4px 4px 10px #0000001a;
+    border-radius: 8px;
+}
+
+.contOngVolFeed {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+    width: 100%;
+}
+
+.OngVolFeed {
+    font-size: 1.6em;
+    font-weight: 700;
+}
+
+.heartVolFeed {
+    width: 4vw;
+}
+
+.btnHeartVolFeed {
+    background-color: #FFFFFF;
+    border: none;
+}
+
+.imgFavoriteVolFeed {
+    background-color: none;
+    width: 6vh;
+    cursor: pointer;
+}
+
+.titlePubVolFeed {
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    flex-direction: column-reverse;
+    font-size: 1.7em;
+    font-weight: 700;
+    margin-bottom: 2vh;
+}
+
+.contTextPubVolFeed {
+    width: 100%;
+    height: 20vh;
+    font-size: 1.2em;
+    padding-top: 3vh;
+    overflow: auto;
+}
+
+.footerPubVolFeed {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.datePubVolFeed {
+    margin-top: 4vh;
+    font-size: 1.2em;
+}
+
+.btnFooterVolFeed {
+    margin-top: 5vh;
+    width: 18vw;
+    height: 6vh;
+    font-weight: 600;
+    font-size: 1em;
+    border-radius: 10px;
+    border: none;
+    color: #ffffff;
+    background-color: #04402F;
+    cursor: pointer;
+    transition-duration: 0.7s;
+    outline: none;
+}
+
+.btnFooterVolFeed:hover {
+    transition-duration: 0.7s;
+    background-color: #5F806D;
+    border: 1px solid #5F806D;
+    color: #ffffff;
+    text-shadow: 10px 3px 10px #0000002f;
+}
+
+/* -------------------------------- */
+/*           CARD INFO PUB          */
+
+
+
+.InscricaoUsuario {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 9999;
+    top: 0;
+}
+
+.backgroundShadowVol {
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background: #00000033;
+}
+
+.divBtnCloseVol {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.btnCloseVol {
+    width: 4vh;
+    cursor: pointer;
+}
+
+
+
+.NewPostVol {
+    width: 86%;
+    height: 84vh;
+    padding: 2%;
+    border-radius: 16px;
+    background-color: #ffffff;
+}
+
+.formPostVol {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.boxForm1Vol {
+    width: 26vw;
+    height: 80vh;
+}
+
+.contDivBeneficio {
+    display: flex;
+    flex-direction: row;
+}
+
+.divBenefcio {
+    width: 6vw;
+    height: 6vh;
+    resize: none;
+    padding-left: 2%;
+    border-radius: 8px;
+    color: #8C8C8C;
+    background-color: #ffffff;
+}
+
+.divDisplayInfo {
+    width: 20vw;
+    height: 6vh;
+    resize: none;
+    padding-left: 2%;
+    border-radius: 8px;
+    color: #8C8C8C;
+    background-color: #ffffff;
+}
+
+.comboBox2Vol {
+    display: flex;
+    flex-direction: column;
+    margin-top: 3vh;
+}
+
+.optionsPub {
+    display: flex;
+    flex-direction: column;
+}
+
+.boxForm2 {
+    width: 50%;
+    height: 80vh;
+}
+
+.comboBox3Vol {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.tituloVol {
+    font-weight: 700;
+    font-size: 1.7em;
+    color: #04402F;
+    margin-left: 5vh;
+}
+
+.tituloVol2 {
+    font-weight: 700;
+    font-size: 1.7em;
+    color: #04402F;
+}
+
+.selectorVol {
+    display: grid;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-top: 2vh;
+    margin-left: 5vh;
+}
+
+.horasTrabalhoVol {
+    justify-content: flex-start;
+    margin-top: 2vh;
+    margin-left: 5vh;
+}
+
+.infoTrabalhoVol {
+    margin-top: 1vh;
+    font-weight: 400;
+    font-size: 1.0em;
+}
+
+.opcoes-beneficios {
+    justify-content: flex-start;
+    margin-top: 1.2em;
+    font-size: 1.0em;
+    font-weight: bold;
+    margin-left: 5vh;
+    font-weight: 400;
+}
+
+.infoEventoVol {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-top: 1vh;
+    font-size: 1.0em;
+    font-weight: 400;
+}
+
+.inputDateVol {
+    width: 20vw;
+    height: 5vh;
+    border-radius: 8px;
+    padding-left: 2%;
+    border: none;
+    background-color: #FFFFFF;
+}
+
+.btnPublicarVol {
+    width: 21vw;
+    height: 6vh;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    background: #04402F;
+    color: #ffffff;
+    cursor: pointer;
+    margin-top: 32vh;
+    margin-left: 4vh;
+}
+
+/* -------------------------------- */
+/*           MODAL SUCESSO          */
+.backgroundShadowModalSucesso {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #00000033;
+}
+
+.modalSucesso {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    width: 38vw;
+    height: 42vh;
+    left: 551px;
+    z-index: 9999;
+    top: 410px;
+    background: #ffffff;
+    box-shadow: 8px 8px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 16px;
+}
+
+.TextModalSucesso {
+    font-size: 1.4em;
+    font-weight: bold;
+}
+
+.btnCloseModalSucesso {
+    width: 12vw;
+    height: 6vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background: #04402F;
+    border: none;
+    border-radius: 10px;
+    padding: 1%;
+    color: #F2F2F2;
+    font-size: 1.1em;
+    cursor: pointer;
+}
+
+.info-evento {
+    display: flex;
+    flex-direction: column;
+}
+
+.txtAreaVol {
+    padding-left: 2%;
+    width: 20vw;
+    height: 20vh;
+    resize: none;
+    border: none;
+    border-radius: 8px;
+    background-color: #ffffff;
+}

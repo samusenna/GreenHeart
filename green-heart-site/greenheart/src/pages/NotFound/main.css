@@ -1,0 +1,33 @@
+.container {
+    width: 80%;
+    height: 100%;
+    margin: auto;
+}
+
+.containerForm {
+    display: flex;
+}
+
+
+.formulario {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 52vh;
+    color: #04402F;
+}
+
+.statusCode {
+    font-size: 6em;
+    font-weight: 600;
+}
+
+.subtitle {
+    font-size: 2em;
+}
+
+.imagem {
+    
+}

@@ -1,0 +1,108 @@
+.CadastroEmpresa {
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    background-color: #F2F2F2;
+    overflow: hidden;
+}
+
+.divContent {
+    width: 60%;
+    height: 84vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.imageCadEmp img {
+    width: 100%;
+    height: 100%;
+}
+
+.divForm {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.contTextEmpresa {
+    margin-left: 5vw;
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.createAccount {
+    margin-top: 1vh;
+}
+
+.titleFormEmpresa {
+    color: #04402F;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.subTitleForm {
+    font-size: 1.2em;
+    margin-bottom: 3vh;
+}
+
+.contColumnsFormEmp {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+
+.btnFormEmpresa {
+    margin-top: 5vh;
+    width: 24vw;
+    height: 8vh;
+    font-weight: 600;
+    font-size: 1.4em;
+    border-radius: 100px;
+    border: none;
+    color: #ffffff;
+    background-color: #7CA68E;
+    cursor: pointer;
+    transition-duration: 0.7s;
+    outline: none;
+}
+
+.btnFormEmpresa:hover {
+    transition-duration: 0.7s;
+    background-color: #5F806D;
+    border: 1px solid #5F806D;
+    color: #ffffff;
+    text-shadow: 10px 3px 10px #0000002f;
+}
+
+.btnFormEmpresa:active {
+    transition-duration: 0.5ms;
+    background-color: #577564;
+    border: 1px solid #577564;
+    color: #ffffff;
+    text-shadow: 10px 3px 10px #0000002f;
+}
+
+.contLowEmpresa {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.noLink {
+    color: #04402F;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.noLink1 {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.noLink2 {
+    color: #000000;
+    text-decoration: none;
+}

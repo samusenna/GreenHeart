@@ -1,0 +1,127 @@
+.CadastroVoluntario{
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    background-color: #F2F2F2;
+    overflow: hidden;
+}
+
+.divContent{
+    width: 60%;
+    height: 84vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.imageCadVol img{
+    width: 100%;
+    height: 100%;
+}
+
+.divForm{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.contTextVoluntario{
+    margin-left: 3vh;
+    margin-top: 3vh;
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.container_nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 45vw;
+    height: 18vh;
+}
+
+.container_img img{
+    width: 12vw;
+}
+
+.createAccount{
+    margin-top: 1vh;
+}
+
+.titleFormVoluntario{
+    color: #04402F;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.subTitleForm{
+    font-size: 1.2em;
+    margin-bottom: 3vh;
+}
+
+.contColumnsFormVol{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+
+.btnFormVoluntario{
+    margin-top: 5vh;
+    width: 24vw;
+    height: 8vh;
+    font-weight: 600;
+    font-size: 1.4em;
+    border-radius: 100px;
+    border: none;
+    color: #ffffff;
+    background-color: #7CA68E;
+    cursor: pointer;
+    transition-duration: 0.7s;
+    outline: none;
+}
+
+.btnFormVoluntario:hover{
+    transition-duration: 0.7s;
+    background-color: #5F806D;
+    border: 1px solid #5F806D ;
+    color: #ffffff;
+    text-shadow: 10px 3px 10px #0000002f;
+}
+
+.btnFormVoluntario:active{
+    transition-duration: 0.5ms;
+    background-color: #577564 ;
+    border: 1px solid #577564 ;
+    color: #ffffff;
+    text-shadow: 10px 3px 10px #0000002f;
+}
+
+.contLowVoluntario{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.noLink{
+    color: #04402F;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.noLink1{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.noLink2{
+    color: #000000;
+    text-decoration: none;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}

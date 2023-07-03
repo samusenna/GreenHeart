@@ -1,0 +1,117 @@
+.Login {
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    background-color: #F2F2F2;
+    overflow: hidden;
+}
+
+.divContent {
+    width: 60%;
+    height: 84vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.imageLogin img {
+    width: 90vh;
+    height: 100%;
+}
+
+.divForm {
+    display: flex;
+    flex-direction: column;
+}
+
+.contTextLogin {
+    margin-left: 5vw;
+    width: 50vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.createAccount {
+    margin-top: 1vh;
+}
+
+.titleFormLogin {
+    color: #04402F;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.subTitleForm {
+    font-size: 1.2em;
+    margin-bottom: 3vh;
+}
+
+.contColumnsForm {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.btnFormLogin {
+    margin-top: 5vh;
+    width: 20vw;
+    height: 8vh;
+    font-weight: 600;
+    font-size: 1.4em;
+    border-radius: 100px;
+    border: none;
+    color: #ffffff;
+    background-color: #7CA68E;
+    cursor: pointer;
+    transition-duration: 0.7s;
+    outline: none;
+}
+
+.btnFormLogin:hover {
+    transition-duration: 0.7s;
+    background-color: #04402F;
+    border: none;
+    color: #ffffff;
+    text-shadow: 10px 3px 10px #0000002f;
+}
+
+.btnFormLogin:active {
+    transition-duration: 0.5ms;
+    background-color: #577564;
+    border: 1px solid #577564;
+    color: #ffffff;
+    text-shadow: 10px 3px 10px #0000002f;
+}
+
+.contLowLogin {
+    margin-top: 1vh;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.noLink {
+    color: #04402F;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.noLink1 {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.noLink2 {
+    color: #000000;
+    text-decoration: none;
+}
+
+#erro {
+    display: none;
+    color: red;
+    font-weight: bold;
+    font-size: 1em;
+}

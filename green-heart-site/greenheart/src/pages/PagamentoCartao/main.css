@@ -1,0 +1,79 @@
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-items: center;
+}
+
+.container_mercadopago {
+    width: 60vw;
+}
+
+.container_pagamento {
+    height: 95vh;
+    width: 100%;
+}
+
+.text_title {
+    margin: 2%;
+    font-weight: 700;
+}
+
+.text_title p {
+    color: #04402F;
+}
+
+.container_card_confimacao {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 27vw;
+    height: 85vh;
+    box-shadow: -1px 9px 8px #888888;
+    background-color: #FFFFFF;
+}
+
+.logo_coracao {
+    width: 6vw;
+}
+
+.logo_nome {
+    width: 18vw;
+}
+
+.imagens {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 12vh;
+    margin: 8vh;
+}
+
+.detalhes {
+    margin: 3%;
+    width: 24vw;
+    height: 40%;
+}
+
+.detalhes p {
+    margin-left: 10%;
+    padding: 0;
+    font-family: 'Oxygen', sans-serif;
+    font-size: 1em;
+}
+
+.detalhes h1 {
+    margin: 10%;
+    font-family: 'Oxygen', sans-serif;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.svelte-1mym5f9 {
+    display: none;
+}
+/* button.loaded-ZnBK__ */
+.svelte-1a8kh4a {
+    background-position: -0% 100% !important;
+    pointer-events: visible !important;
+}
